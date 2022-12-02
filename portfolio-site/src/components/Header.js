@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 function Header({ currentPage, handlePageChange}) {
-    console.log("header")
+
     return(
         <ul className='nav-links'>
             <li className='nav-item'>
