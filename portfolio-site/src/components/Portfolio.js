@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import Header from './Header'
 import Footer from './Footer'
-import About from './About'
-import Projects from './Projects'
-import Resume from './Resume'
+import About from './Pages/About'
+import Projects from './Pages/Projects'
+import Resume from './Pages/Resume'
+import Contact from './Pages/Contact'
 
 function Portfolio() {
     const [currentPage, setCurrentPage]= useState('About')
@@ -17,7 +18,7 @@ function Portfolio() {
         if(currentPage === 'Resume'){
             return <Resume/>
         }
-        if(currentPage === 'contact'){
+        if(currentPage === 'Contact'){
             return <Contact/>
         }
     }
