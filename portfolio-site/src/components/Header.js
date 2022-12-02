@@ -1,10 +1,14 @@
 import React, { useState } from 'react';
 
-function Header() {
+function Header({ currentPage, handlePageChange}) {
     return(
-        <h1>
-            goodbye
-        </h1>
+        <ul className='nav-links'>
+            <li>
+                <a href='#about'>
+
+                </a>
+            </li>
+        </ul>
     )
 }
 
