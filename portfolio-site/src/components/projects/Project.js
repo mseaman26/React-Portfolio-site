@@ -11,17 +11,19 @@ const gifs = [MikesWordleGif]
 function Project(props) {
     function hoverHandler(e){
         console.log(e.target)
-        e.target.src = MikesWordleGif
+        e.target.src = gifs[e.target.id]
     }
     function unHoverHandler(e){
         console.log(e.target)
-        e.target.src = MikesWordleStill
+        e.target.src = images[e.target.id]
     }
     return(
+        
         <div className='project-card' >
-            {
-                <img src={MikesWordleStill} className='project_image' alt='gif of wordle game' onMouseOver={hoverHandler} onMouseOut={unHoverHandler}/>
-            }
+            {props.projects.map((project) => (
+                <img id={project.imageIndex} src={images[props.projects.imageIndex] } className='project_image' alt={props.projects.alt} onMouseOver={hoverHandler} onMouseOut={unHoverHandler}/>
+            ))}
+           
         </div>
     )
 }

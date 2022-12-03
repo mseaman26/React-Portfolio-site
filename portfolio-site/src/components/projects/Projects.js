@@ -8,7 +8,12 @@ function Projects() {
         {
             name: `Mike's Wordle`,
             imageIndex: 0,
-            gifIndex: 0
+            alt: 'image of Mikes wordle game'
+        },
+        {
+            name: `Sounds Like All Over The World`,
+            imageIndex: 1,
+            alt: 'image of Sounds like All Over The World app'
         }
     ]
 
@@ -19,6 +24,7 @@ function Projects() {
              <h1>
             Projects
             </h1>
+            
             <Project projects={projects}/>
         </div>
        
