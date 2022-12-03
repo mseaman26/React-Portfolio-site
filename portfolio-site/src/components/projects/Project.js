@@ -11,11 +11,15 @@ const gifs = [MikesWordleGif,soundsLikeGif]
 
 
 function Project(props) {
-    const testHeader = document.createElement('h1')
-    testHeader.textContent= "Hello"
+    <div>
+        <a href='http://www.google.com' class='project_link'></a>
+    </div>
+    const linksDiv = document.createElement('div')
+    
 
     function imageHoverHandler(e){
-        e.target.parentElement.appendChild(testHeader)
+        linksDiv.innerHTML = `<a class='project_link' href='${props.projects[e.target.id].link1}' target="_blank">${props.projects[e.target.id].link1Text}</a><br><br><a class='project_link' href='${props.projects[e.target.id].link2}' target="_blank">${props.projects[e.target.id].link2Text}</a>`
+        e.target.parentElement.appendChild(linksDiv)
         e.target.src = gifs[e.target.id]
     }
     function imageUnHoverHandler(e){
