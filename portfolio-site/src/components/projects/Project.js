@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import MikesWordleStill from '../../assets/images/wordleScreenshot.png'
 import MikesWordleGif from '../../assets/images/MikesWordle.gif'
+import soundsLikeStill from '../../assets/images/SoundsLikeStill.png'
+import soundsLikeGif from '../../assets/images/SoundsLikeInYourAreaGif.gif'
 
-const images =[MikesWordleStill]
-const gifs = [MikesWordleGif]
+const images =[MikesWordleStill, soundsLikeStill]
+const gifs = [MikesWordleGif,soundsLikeGif]
 
 
 
@@ -19,12 +21,14 @@ function Project(props) {
     }
     return(
         
-        <div className='project-card' >
-            {props.projects.map((project) => (
-                <img id={project.imageIndex} src={images[props.projects.imageIndex] } className='project_image' alt={props.projects.alt} onMouseOver={hoverHandler} onMouseOut={unHoverHandler}/>
-            ))}
+        
+            props.projects.map((project) => (
+                <div className='project-card' >
+                <img id={project.imageIndex} src={images[project.imageIndex] } className='project_image' alt={project.alt} onMouseOver={hoverHandler} onMouseOut={unHoverHandler}/>
+                </div>
+            ))
            
-        </div>
+        
     )
 }
 
