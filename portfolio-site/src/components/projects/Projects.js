@@ -1,15 +1,14 @@
 import React, { useState } from 'react';
 import Project from './Project';
+import MikesWordle from '../../assets/images/MikesWordle.gif'
 
 
 function Projects() {
     const projects = [
         {
-            id: 1,
             name: `Mike's Wordle`,
-            image: `wordle-screenshot.png`,
-            video: `Mike's Wordle!`
-
+            imageIndex: 0,
+            gifIndex: 0
         }
     ]
 
