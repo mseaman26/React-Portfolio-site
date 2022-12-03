@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 function Header({ currentPage, handlePageChange}) {
 
     return(
-        <ul className='nav-links'>
-            <li className='nav-item'>
+        <div className='nav-links'>
+           
                 <a 
                     href='#about'
                     onClick={() => handlePageChange('About')}
@@ -12,8 +12,8 @@ function Header({ currentPage, handlePageChange}) {
                     >
                     About   
                 </a>
-            </li>
-            <li className='nav-item'>
+        
+          
                 <a
                     href='#projects'
                     onClick={() => handlePageChange('Projects')}
@@ -21,8 +21,8 @@ function Header({ currentPage, handlePageChange}) {
                     >
                     Projects
                 </a>
-            </li>
-            <li className='nav-item'>
+     
+        
                 <a
                     href='#resume'
                     onClick={() => handlePageChange('Resume')}
@@ -30,8 +30,8 @@ function Header({ currentPage, handlePageChange}) {
                     >
                     Resume
                 </a>
-            </li>
-            <li className='nav-item'>
+         
+       
                 <a
                     href='#contact'
                     onClick={() => handlePageChange('Contact')}
@@ -39,8 +39,8 @@ function Header({ currentPage, handlePageChange}) {
                     >
                     Contact
                 </a>
-            </li>
-        </ul>
+      
+        </div>
     )
 }
 
