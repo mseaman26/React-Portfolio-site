@@ -51,9 +51,14 @@ function Projects() {
             link2Text: `* Watch a Demo of this back-end app`
         },
         {
-            name: `...`,
+            name: `SQL Employee Tracker`,
             imageIndex: 5,
-            alt: '...'
+            alt: 'Image/Gif of SQL Employee Tracker',
+            link1: `https://github.com/mseaman26/SQL-Employee-Tracker`,
+            link1Text: `<i style="font-size:24px" class="fa">&#xf09b;</i> GitHub Repo Link`,
+            link2: `https://youtu.be/zLVQHoDLSqM`,
+            link2Text: `* Watch a Demo of this command-line app`
+
         },
 
     ]

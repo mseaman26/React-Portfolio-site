@@ -9,9 +9,11 @@ import techBlogStill from '../../assets/images/techBlogStill.png'
 import techBlogGif from '../../assets/images/techBlogGif.gif'
 import socialMediaStill from '../../assets/images/socialMediaStill.png'
 import socialMediaGiff from '../../assets/images/socialMediaGif.gif'
+import employeeStill from '../../assets/images/employeeStill.png'
+import employeeGif from '../../assets/images/employeeGif.gif'
 
-const images =[MikesWordleStill, soundsLikeStill,fetchStill, techBlogStill, socialMediaStill]
-const gifs = [MikesWordleGif,soundsLikeGif, fetchGif, techBlogGif, socialMediaGiff]
+const images =[MikesWordleStill, soundsLikeStill,fetchStill, techBlogStill, socialMediaStill, employeeStill]
+const gifs = [MikesWordleGif,soundsLikeGif, fetchGif, techBlogGif, socialMediaGiff, employeeGif]
 
 
 
