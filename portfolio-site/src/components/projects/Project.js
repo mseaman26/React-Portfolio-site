@@ -40,7 +40,7 @@ function Project(props) {
             <div className='project-card' >
                 
                 <div className='project_title'>
-                    <h3>
+                    <h3 className='project_header'>
                         {project.name}
                     </h3>
                 </div>

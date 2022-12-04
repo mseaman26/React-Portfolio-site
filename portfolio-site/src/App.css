@@ -19,6 +19,7 @@
 }
 .project-card{
   height: fit-content;
+  min-height: 356px;
   width: 300px;
   background-color: black;
   margin-left: 50px;
@@ -26,14 +27,21 @@
   margin-bottom: 100px;
   border-radius: 15px;
 }
+/* TODO: why wont it change font size? */
 .project_title{
   color: white;
   text-align: center;
+  font-size: 12px;
 }
+.project_header{
+  font-size: 20px;
+}
+
 .project_image_div{
   text-decoration: inherit;
   text-decoration: none;
-  color: white
+  color: white;
+  
 }
 .project_image{
   width: 300px;
