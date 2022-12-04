@@ -3,9 +3,15 @@ import MikesWordleStill from '../../assets/images/wordleScreenshot.png'
 import MikesWordleGif from '../../assets/images/MikesWordle.gif'
 import soundsLikeStill from '../../assets/images/SoundsLikeStill.png'
 import soundsLikeGif from '../../assets/images/SoundsLikeInYourAreaGif.gif'
+import fetchStill from '../../assets/images/fetchStill.png'
+import fetchGif from '../../assets/images/fetchGif.gif'
+import techBlogStill from '../../assets/images/techBlogStill.png'
+import techBlogGif from '../../assets/images/techBlogGif.gif'
+import socialMediaStill from '../../assets/images/socialMediaStill.png'
+import socialMediaGiff from '../../assets/images/socialMediaGif.gif'
 
-const images =[MikesWordleStill, soundsLikeStill]
-const gifs = [MikesWordleGif,soundsLikeGif]
+const images =[MikesWordleStill, soundsLikeStill,fetchStill, techBlogStill, socialMediaStill]
+const gifs = [MikesWordleGif,soundsLikeGif, fetchGif, techBlogGif, socialMediaGiff]
 
 
 
@@ -18,7 +24,7 @@ function Project(props) {
     
 
     function imageHoverHandler(e){
-        linksDiv.innerHTML = `<a class='project_link' href='${props.projects[e.target.id].link1}' target="_blank">${props.projects[e.target.id].link1Text}</a><br><br><a class='project_link' href='${props.projects[e.target.id].link2}' target="_blank">${props.projects[e.target.id].link2Text}</a>`
+        linksDiv.innerHTML = `<a class='project_link' href='${props.projects[e.target.id].link1}' target="_blank">${props.projects[e.target.id].link1Text}</a><br><a class='project_link' href='${props.projects[e.target.id].link2}' target="_blank">${props.projects[e.target.id].link2Text}</a>`
         e.target.parentElement.appendChild(linksDiv)
         e.target.src = gifs[e.target.id]
     }
@@ -30,6 +36,7 @@ function Project(props) {
     return(
         props.projects.map((project) => (
             <div className='project-card' >
+                
                 <div className='project_title'>
                     <h3>
                         {project.name}

@@ -4,7 +4,8 @@
 }
 
 .portfolio_page{
-  background-color: blue;
+  background-image: url('./assets/images/OceanBeach.jpg');
+  background-size: cover;
   height: fit-content;
 }
 .portfolio_header{
