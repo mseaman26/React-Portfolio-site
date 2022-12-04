@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-around;
 }
-
+/* projects page======================================= */
 .portfolio_page{
   background-image: url('./assets/images/OceanBeach.jpg');
   background-size: cover;
@@ -42,4 +42,26 @@
 .project_link{
   font-size: 24px;
   color: antiquewhite;
+}
+/* about page ===================================== */
+#about_page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(106, 213, 255);
+  text-align: center;
+  height: fit-content;
+  background-image: url('./assets/images/redwoods.jpg');
+  background-size: cover;
+}
+#about-header{
+  padding-top: 50px;
+}
+#mikePic{
+  height: 300px;
+  width: auto;
+}
+#about_p{
+  max-width: 650px;
+  font-size: 30px;
 }
