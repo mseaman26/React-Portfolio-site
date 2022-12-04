@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Project from './Project';
-import MikesWordle from '../../assets/images/MikesWordle.gif'
 
 
 function Projects() {
