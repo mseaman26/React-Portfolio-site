@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio-site/static/css/main.850e1e75.chunk.css",
+    "main.js": "/React-Portfolio-site/static/js/main.59f9f317.chunk.js",
+    "main.js.map": "/React-Portfolio-site/static/js/main.59f9f317.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio-site/static/js/runtime-main.049c1072.js",
+    "runtime-main.js.map": "/React-Portfolio-site/static/js/runtime-main.049c1072.js.map",
+    "static/js/2.dd619890.chunk.js": "/React-Portfolio-site/static/js/2.dd619890.chunk.js",
+    "static/js/2.dd619890.chunk.js.map": "/React-Portfolio-site/static/js/2.dd619890.chunk.js.map",
+    "index.html": "/React-Portfolio-site/index.html",
+    "static/css/main.850e1e75.chunk.css.map": "/React-Portfolio-site/static/css/main.850e1e75.chunk.css.map",
+    "static/js/2.dd619890.chunk.js.LICENSE.txt": "/React-Portfolio-site/static/js/2.dd619890.chunk.js.LICENSE.txt",
+    "static/media/MikesWordle.ed206c4d.gif": "/React-Portfolio-site/static/media/MikesWordle.ed206c4d.gif",
+    "static/media/App.css": "/React-Portfolio-site/static/media/redwoods.2e1cf309.jpg",
+    "static/media/SoundsLikeInYourAreaGif.eb75f18b.gif": "/React-Portfolio-site/static/media/SoundsLikeInYourAreaGif.eb75f18b.gif",
+    "static/media/SoundsLikeStill.cd17bcba.png": "/React-Portfolio-site/static/media/SoundsLikeStill.cd17bcba.png",
+    "static/media/employeeGif.13c01e91.gif": "/React-Portfolio-site/static/media/employeeGif.13c01e91.gif",
+    "static/media/employeeStill.9c360a93.png": "/React-Portfolio-site/static/media/employeeStill.9c360a93.png",
+    "static/media/fetchGif.fe3fddee.gif": "/React-Portfolio-site/static/media/fetchGif.fe3fddee.gif",
+    "static/media/fetchStill.74363a76.png": "/React-Portfolio-site/static/media/fetchStill.74363a76.png",
+    "static/media/mike.1cb93181.png": "/React-Portfolio-site/static/media/mike.1cb93181.png",
+    "static/media/socialMediaGif.80d81ec6.gif": "/React-Portfolio-site/static/media/socialMediaGif.80d81ec6.gif",
+    "static/media/socialMediaStill.072d3f1b.png": "/React-Portfolio-site/static/media/socialMediaStill.072d3f1b.png",
+    "static/media/techBlogGif.e9440d25.gif": "/React-Portfolio-site/static/media/techBlogGif.e9440d25.gif",
+    "static/media/techBlogStill.5737fc1f.png": "/React-Portfolio-site/static/media/techBlogStill.5737fc1f.png",
+    "static/media/wordleScreenshot.8d132c47.png": "/React-Portfolio-site/static/media/wordleScreenshot.8d132c47.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.049c1072.js",
+    "static/js/2.dd619890.chunk.js",
+    "static/css/main.850e1e75.chunk.css",
+    "static/js/main.59f9f317.chunk.js"
+  ]
+}
