@@ -1,6 +1,18 @@
 .nav-links{
   display: flex;
   justify-content: space-around;
+  height: 100px;
+  padding-top: 20px;
+  background-image: url('./assets/images/trunkNav.png');
+  
+
+}
+.nav_link{
+
+}
+.nav_link_active{
+  color:rgb(106, 213, 255);
+  font-size: 50px;
 }
 /* projects page======================================= */
 .portfolio_page{
@@ -11,6 +23,8 @@
 .portfolio_header{
   text-align: center;
   margin-bottom: 100px;
+  padding-top: 30px;
+  
 }
 .projects_container{
   display: flex;
@@ -32,20 +46,24 @@
   color: white;
   text-align: center;
   font-size: 12px;
+  height: 48px;
 }
 .project_header{
   font-size: 20px;
+  padding: 3px;
 }
 
 .project_image_div{
   text-decoration: inherit;
   text-decoration: none;
   color: white;
+ 
+ 
   
 }
 .project_image{
   width: 300px;
-  height: 300px;
+  height: 308px;
   border-radius: 0px 0px 15px 15px;
 }
 .project_link{

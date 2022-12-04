@@ -28,11 +28,11 @@ function Project(props) {
     function imageHoverHandler(e){
         linksDiv.innerHTML = `<a class='project_link' href='${props.projects[e.target.id].link1}' target="_blank">${props.projects[e.target.id].link1Text}</a><br><a class='project_link' href='${props.projects[e.target.id].link2}' target="_blank">${props.projects[e.target.id].link2Text}</a>`
         e.target.parentElement.appendChild(linksDiv)
-        e.target.src = gifs[e.target.id]
+        e.target.src = gifs[e.target.id] 
     }
     function imageUnHoverHandler(e){
         console.log(e.target)
-        e.target.src = images[e.target.id]
+        e.target.src = images[e.target.id]     
     }
 
     return(
