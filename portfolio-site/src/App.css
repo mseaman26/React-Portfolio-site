@@ -8,11 +8,12 @@
 
 }
 .nav_link{
-
+  font-size: 30px;
 }
 .nav_link_active{
   color:rgb(106, 213, 255);
   font-size: 50px;
+  padding-bottom: 10px;
 }
 /* projects page======================================= */
 .portfolio_page{
@@ -41,7 +42,7 @@
   margin-bottom: 100px;
   border-radius: 15px;
 }
-/* TODO: why wont it change font size? */
+
 .project_title{
   color: white;
   text-align: center;
@@ -91,4 +92,24 @@
 #about_p{
   max-width: 650px;
   font-size: 30px;
+}
+/* contact page======================================= */
+#conact_page{
+  padding-top: 50px;
+  background-image: url('./assets/images/laptop.jpg');
+  background-size: cover;
+  height: 600px;
+ 
+} 
+#contact_header{
+  color: white
+}
+#contact_form_div{
+  color: white;
+  padding: 10px;
+  width: fit-content;
+  background: rgb(0,0,0,.7);
+}
+.contact_form_item{
+  margin-bottom: 50px;
 }
