@@ -1,33 +1,39 @@
+body{
+  
+}
 .nav-links{
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 100px;
   /* background-image: url('./assets/images/trunkNav.png'); */
-  background-color: rgb(59, 58, 58);
+  background-color: white;
 
 }
 .nav_link{
   font-size: 30px;
+  color: gray;
 }
 .nav_link_active{
   position: relative;
-  color:rgb(106, 213, 255);
-  font-size: 50px;
+  color:black;
+  font-size: 30px;
 
-  text-shadow:1px 1px 10px #fff, 1px 1px 10px yellow;
+  text-shadow:1px 1px 10px #fff, 1px 1px 10px green;
   
 }
 /* projects page======================================= */
 .portfolio_page{
-  background-image: url('./assets/images/OceanBeach.jpg');
+  background-image: url('./assets/images/beachOverhead.jpg');
   background-size: cover;
   height: fit-content;
 }
-.portfolio_header{
+.portfolio_header h1{
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   padding-top: 30px;
+  color: white;
+  font-size: 70px;
   
 }
 .projects_container{
@@ -79,7 +85,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: rgb(106, 213, 255);
+  color: rgb(255, 106, 0);
   text-align: center;
   height: fit-content;
   background-image: url('./assets/images/redwoods.jpg');
@@ -114,20 +120,20 @@
   color: white;
   padding: 10px;
   width: fit-content;
-  background: rgb(0,0,0,.7);
+  background: rgb(0,0,0);
 }
 .contact_form_item{
   margin-bottom: 50px;
 }
 /* footer======================================= */
-#footer_div{
+/* #footer_div{
   display: flex;
   justify-content: space-around;
   align-items: center;
   font-size: 30px;
   background-color: rgb(59, 58, 58);
   height: 100px;
-}
+} */
 
 
 @media screen and (max-width: 680px) {
