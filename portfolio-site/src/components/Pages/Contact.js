@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { checkPassword, validateEmail } from '../../utils/helpers'
+import { validateEmail } from '../../utils/helpers'
 
 function Contact() {
 
@@ -14,12 +14,12 @@ function Contact() {
         const inputType = target.name;
         const inputValue = target.value;
     
-
+        //TODO: message not working properly
         if (inputType === 'email') {
           setEmail(inputValue);
         } else if (inputType === 'firstName') {
           setFirstName(inputValue);
-        } else if (inputType === 'lastname'){
+        } else if (inputType === 'lastName'){
           setLastName(inputValue);
         } else {
           setMessage(inputValue)
@@ -40,14 +40,14 @@ function Contact() {
           setErrorMessage('your message cannot be blank!')
           return
         }
-        alert(`message sent!`);
+       
 
         setFirstName('');
         setLastName('');
         setEmail('');
         setErrorMessage('')
+        alert(`message sent!`);
     
-        // setformInfo({email: "",userName: "",password: "",errorMessage: "" })
       };
 
     return (
@@ -84,7 +84,7 @@ function Contact() {
                 type="text"
                 placeholder="Last Name"
                 className='contact_form_item'
-                rows='4'
+                
                 />
                 <br/>
                 <input
@@ -94,6 +94,7 @@ function Contact() {
                 type="text"
                 placeholder="Enter your message here"
                 className='contact_form_item'
+                rows='4'
                 />
                 <br/>
                 <button type="button" onClick={handleFormSubmit}>Submit</button>
