@@ -6,6 +6,7 @@ function Contact() {
     const [email, setEmail] = useState('');
     const [firstName, setFirstName] = useState('');
     const [lastName, setLastName] = useState('');
+    const [message, setMessage] = useState('')
     const [errorMessage, setErrorMessage] = useState('');
 
     const handleInputChange = (e) => {
@@ -18,8 +19,10 @@ function Contact() {
           setEmail(inputValue);
         } else if (inputType === 'firstName') {
           setFirstName(inputValue);
-        } else {
+        } else if (inputType === 'lastname'){
           setLastName(inputValue);
+        } else {
+          setMessage(inputValue)
         }
       };
       const handleFormSubmit = (e) => {
@@ -32,6 +35,10 @@ function Contact() {
         if(!firstName || !lastName){
             setErrorMessage('!!!please provide a first and last name')
             return
+        }
+        if(!message){
+          setErrorMessage('your message cannot be blank!')
+          return
         }
         alert(`message sent!`);
 
@@ -47,9 +54,12 @@ function Contact() {
         <div id='conact_page'>
            
             <div id='contact_form_div'>
-                <h1 id='contact_header'>
-                Contact Michael Seaman
-                </h1>
+                <div className='contact_header_div'>
+                  <h1 id='contact_header'>
+                  Contact Michael Seaman
+                  </h1>
+                </div>
+                  
                 <form className="form">
                 <input
                 value={email}
@@ -74,7 +84,18 @@ function Contact() {
                 type="text"
                 placeholder="Last Name"
                 className='contact_form_item'
-                /><br/>
+                rows='4'
+                />
+                <br/>
+                <input
+                value={message}
+                name="message"
+                onChange={handleInputChange}
+                type="text"
+                placeholder="Enter your message here"
+                className='contact_form_item'
+                />
+                <br/>
                 <button type="button" onClick={handleFormSubmit}>Submit</button>
                 </form>
                 {errorMessage && (

@@ -68,7 +68,7 @@ function Projects() {
         <div className='portfolio_page'>
             <div className='portfolio_header'>
                 <h1>
-                Projects
+                Please Check out Some of my Coding Projects!
                 </h1>
             </div>
             <div className='projects_container'>
