@@ -1,8 +1,8 @@
 .nav-links{
   display: flex;
   justify-content: space-around;
+  align-items: center;
   height: 100px;
-  padding-top: 20px;
   /* background-image: url('./assets/images/trunkNav.png'); */
   background-color: rgb(59, 58, 58);
 
@@ -14,7 +14,7 @@
   position: relative;
   color:rgb(106, 213, 255);
   font-size: 50px;
-  bottom: 15px;
+
   text-shadow:1px 1px 10px #fff, 1px 1px 10px yellow;
   
 }
@@ -98,6 +98,9 @@
 }
 /* contact page======================================= */
 #conact_page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding-top: 50px;
   background-image: url('./assets/images/laptop.jpg');
   background-size: cover;
@@ -124,4 +127,11 @@
   font-size: 30px;
   background-color: rgb(59, 58, 58);
   height: 100px;
+}
+
+
+@media screen and (max-width: 680px) {
+  .nav_link_active {font-size: 24px;}
+  .nav_link{font-size: 24px;}
+  #footer_div{font-size: 20px;}
 }
