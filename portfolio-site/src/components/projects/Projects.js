@@ -67,7 +67,7 @@ function Projects() {
     return (
         <div className='portfolio_page'>
             <div className='portfolio_header'>
-                <h1 id='resume_header'>
+                <h1>
                 Please Check out Some of my Coding Projects!
                 </h1>
             </div>

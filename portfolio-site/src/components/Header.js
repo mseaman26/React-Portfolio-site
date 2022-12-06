@@ -10,7 +10,7 @@ function Header({ currentPage, handlePageChange}) {
                 </h1>
                 </div>
                 
-                <div id='nav_items'>
+                <div className='nav_items'>
                 <a 
                     href='#about'
                     onClick={() => handlePageChange('About')}

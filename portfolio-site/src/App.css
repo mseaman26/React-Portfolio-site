@@ -2,6 +2,7 @@ body{
 
 }
 #nav_header{
+  text-align: center;
   padding-top: 10px;
   padding-bottom: 20px;
 }
@@ -16,7 +17,7 @@ body{
   height: fit-content;
 
 }
-#nav_items{
+.nav_items{
   display: flex;
   justify-content: space-around;
   width: 100%;
@@ -137,7 +138,7 @@ body{
   color: white;
   padding: 10px;
   width: fit-content;
-  background: rgb(0,0,0);
+
 }
 .contact_form_item{
   margin-bottom: 50px;
