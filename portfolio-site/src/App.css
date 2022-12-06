@@ -163,6 +163,12 @@ body{
 #resume_div{
   display: flex;
   justify-content: center;
+  width: fit-content;
+}
+#resume_a{
+  width: fit-content;
+  display: flex;
+  justify-content: center;
 }
 #resume_header{
   padding-bottom: 20px;
