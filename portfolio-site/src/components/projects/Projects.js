@@ -28,7 +28,7 @@ function Projects() {
             alt: 'Image/gif of the Fetch Application',
             link1:`https://github.com/mseaman26/Fetch`,
             link1Text: `<i style="font-size:24px" class="fa">&#xf09b;</i> GitHub Repo Link`,
-            link2:`https://fetch00.herokuapp.com/`,
+            link2:`https://fetchdograter.herokuapp.com/`,
             link2Text: `*Visit Deployed App`
         },
         {
