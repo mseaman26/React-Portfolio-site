@@ -19,23 +19,24 @@ const gifs = [MikesWordleGif,soundsLikeGif, fetchGif, techBlogGif, socialMediaGi
 
 
 function Project(props) {
-    <div>
-        <a href='http://www.google.com' class='project_link'></a>
-    </div>
+    //create a div element to put links into when project is hovered
     const linksDiv = document.createElement('div')
-    
-
+    //when hovered, fill the above element with innerHTML (the links)
     function imageHoverHandler(e){
         linksDiv.innerHTML = `<a class='project_link' href='${props.projects[e. target.id].link1}' target="_blank">${props.projects[e.target.id].link1Text}</a><br><a class='project_link' href='${props.projects[e.target.id].link2}' target="_blank">${props.projects[e.target.id].link2Text}</a>`
         
+        //append the links to the card
         e.target.parentElement.appendChild(linksDiv)
+        //the id of the target element happens to be an index I can use to display the gif from an array of gifs
         e.target.src = gifs[e.target.id] 
     }
     function imageUnHoverHandler(e){
+        //initially display the corresponding image for each project, not the gif
         e.target.src = images[e.target.id]     
     }
 
     return(
+        //map through the array and render the cards
         props.projects.map((project) => (
             <div className='project-card' >
                 
