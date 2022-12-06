@@ -14,7 +14,7 @@ function Contact() {
         const inputType = target.name;
         const inputValue = target.value;
     
-        //TODO: message not working properly
+
         if (inputType === 'email') {
           setEmail(inputValue);
         } else if (inputType === 'firstName') {
@@ -46,6 +46,7 @@ function Contact() {
         setLastName('');
         setEmail('');
         setErrorMessage('')
+        setMessage('')
         alert(`message sent!`);
     
       };
