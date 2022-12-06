@@ -4,7 +4,13 @@ function Header({ currentPage, handlePageChange}) {
 
     return(
         <div className='nav-links'>
-           
+                <div className='nav-links'>
+                <h1 id='nav_header'>
+                    Welcome to Michael Seaman's Portfolio Site!
+                </h1>
+                </div>
+                
+                <div id='nav_items'>
                 <a 
                     href='#about'
                     onClick={() => handlePageChange('About')}
@@ -40,6 +46,7 @@ function Header({ currentPage, handlePageChange}) {
                     >
                     Contact
                 </a>
+                </div>
       
         </div>
     )

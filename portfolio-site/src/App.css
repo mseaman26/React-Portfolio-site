@@ -1,14 +1,25 @@
 body{
 
 }
+#nav_header{
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
 .nav-links{
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  align-items: space-around;
   align-items: center;
   height: 100px;
   /* background-image: url('./assets/images/trunkNav.png'); */
   background-color: white;
+  height: fit-content;
 
+}
+#nav_items{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
 }
 .nav_link{
   font-size: 30px;
@@ -142,14 +153,25 @@ body{
 } */
 
 /* resume Page======================================= */
-
+#resume_page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(219, 219, 219);
+}
 #resume_div{
   display: flex;
   justify-content: center;
 }
-
+#resume_header{
+  padding-bottom: 20px;
+  padding-top: 20px;
+  color: rgb(0, 108, 116)
+  
+}
 #resume_pic{
   width: 75%;
+  padding-bottom: 20px;
 }
 
 @media screen and (max-width: 680px) {
