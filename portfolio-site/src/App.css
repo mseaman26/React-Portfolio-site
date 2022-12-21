@@ -1,5 +1,5 @@
 body{
-
+  font-family: Arial, Helvetica, sans-serif;
 }
 #nav_header{
   text-align: center;
@@ -44,7 +44,8 @@ body{
   text-align: center;
   margin-bottom: 50px;
   padding-top: 30px;
-  color: white;
+  color: rgb(255, 255, 255);
+  -webkit-text-stroke: 1px black;
   font-size: 70px;
 
   
@@ -95,25 +96,32 @@ body{
 }
 /* about page ===================================== */
 #about_page{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  position: relative;
+  
+  
   color: rgb(255, 191, 0);
   text-align: center;
   height: fit-content;
-  background-image: url('./assets/images/redwoods.jpg');
-  background-size: cover;
+  background-color: black;
+  /* background-image: url('./assets/images/redwoods.jpg'); */
+  /* background-size: cover; */
 }
 #about-header{
   padding-top: 50px;
 }
+#about_me{
+
+}
 #mikePic{
-  height: 300px;
-  width: auto;
+
+  float: right;
+  right: 0px;
+  top: 0px;
+  width: 50%;
   border-radius: 10px;
 }
 #about_p{
-  max-width: 650px;
+  
   font-size: 30px;
 }
 /* contact page======================================= */
