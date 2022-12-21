@@ -1,5 +1,5 @@
 body{
-
+  font-family: Arial, Helvetica, sans-serif;
 }
 #nav_header{
   text-align: center;
@@ -44,7 +44,8 @@ body{
   text-align: center;
   margin-bottom: 50px;
   padding-top: 30px;
-  color: white;
+  color: rgb(255, 255, 255);
+  -webkit-text-stroke: 1px black;
   font-size: 70px;
 
   
