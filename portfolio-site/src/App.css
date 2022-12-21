@@ -98,26 +98,28 @@ body{
 #about_page{
   position: relative;
   
-  
-  color: rgb(255, 191, 0);
-  text-align: center;
   height: fit-content;
   background-color: black;
   /* background-image: url('./assets/images/redwoods.jpg'); */
   /* background-size: cover; */
 }
 #about-header{
+  text-align: center;
   padding-top: 50px;
+  margin-bottom: 50px;
 }
 #about_me{
-
+  
+  text-indent: 50px;
+  color: rgb(0, 194, 201);
 }
 #mikePic{
-
+  margin: 10px;
   float: right;
+  height: 400px;
   right: 0px;
   top: 0px;
-  width: 50%;
+  width: auto;
   border-radius: 10px;
 }
 #about_p{
