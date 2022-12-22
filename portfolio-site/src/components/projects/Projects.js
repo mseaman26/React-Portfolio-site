@@ -5,6 +5,15 @@ import Project from './Project';
 function Projects() {
     const projects = [
         {
+            name: `Pokedex Tracker`,
+            imageIndex: 5,
+            alt: 'image of pokedex tracker', 
+            link1: `https://github.com/AJManzione/Pokemon-Trading-Center`,
+            link1Text: `<i style="font-size:24px" class="fa">&#xf09b;</i> GitHub Repo Link`,
+            link2: `https://pokemon-app.herokuapp.com/`,
+            link2Text: '*Visit Deployed App'
+        },
+        {
             name: `Mike's Wordle`,
             imageIndex: 0,
             alt: 'image of Mikes wordle game', 
@@ -49,16 +58,7 @@ function Projects() {
             link2:`https://www.youtube.com/watch?v=OrUoTL_nuFo`,
             link2Text: `* Watch a Demo of this back-end app`
         },
-        {
-            name: `SQL Employee Tracker`,
-            imageIndex: 5,
-            alt: 'Image/Gif of SQL Employee Tracker',
-            link1: `https://github.com/mseaman26/SQL-Employee-Tracker`,
-            link1Text: `<i style="font-size:24px" class="fa">&#xf09b;</i> GitHub Repo Link`,
-            link2: `https://youtu.be/zLVQHoDLSqM`,
-            link2Text: `* Watch a Demo of this command-line app`
 
-        },
 
     ]
 

@@ -5,6 +5,8 @@ body{
   text-align: center;
   padding-top: 10px;
   padding-bottom: 20px;
+  color: rgb(82, 82, 82);
+  text-decoration: underline;
 }
 .nav-links{
   display: flex;
@@ -106,12 +108,13 @@ body{
 #about-header{
   text-align: center;
   padding-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+  
 }
 #about_me{
-  
+  margin: 10px;
   text-indent: 50px;
-  color: rgb(0, 194, 201);
+  color: rgb(215, 215, 215);
 }
 #mikePic{
   margin: 10px;
@@ -196,4 +199,6 @@ body{
   .nav_link{font-size: 20px;}
   #footer_div{font-size: 20px;}
   .portfolio_header h1{font-size: 30px;}
+  #about_me{text-align: center; text-indent: 0px;}
+  
 }
