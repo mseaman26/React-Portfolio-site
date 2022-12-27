@@ -54,14 +54,13 @@ function Contact() {
           setErrorMessage('your message cannot be blank!')
           return
         }
-        
-        emailjs.sendForm('Gmail', 'template_x04vxpm', e, 'u1xtN4l27HdhYjBd0')
+        let form = document.getElementById('contact_form')
+        emailjs.sendForm('service_603mx0m', 'template_x04vxpm', form, 'u1xtN4l27HdhYjBd0')
         .then((result) => {
           console.log(result.text);
           }, (error) => {
           console.log(error.text);
           });
-          e.target.reset()
 
         setFirstName('');
         setLastName('');
@@ -82,7 +81,7 @@ function Contact() {
                   </h1>
                 </div>
                   
-                <form className="form">
+                <form className="form" id='contact_form'>
                 <input
                 value={email}
                 name="email"
