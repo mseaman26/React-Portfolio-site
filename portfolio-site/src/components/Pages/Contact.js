@@ -1,7 +1,20 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers'
+import emailjs from 'emailjs-com'
 
 function Contact() {
+
+  function sendEmail(e){
+    e.preventDefault();
+
+    emailjs.sendForm('Gmail', 'template_x04vxpm', e.target, 'u1xtN4l27HdhYjBd0')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
+  }
 
     const [email, setEmail] = useState('');
     const [firstName, setFirstName] = useState('');
@@ -24,6 +37,7 @@ function Contact() {
         } else {
           setMessage(inputValue)
         }
+        //template_x04vxpm
       };
       const handleFormSubmit = (e) => {
 
@@ -40,7 +54,14 @@ function Contact() {
           setErrorMessage('your message cannot be blank!')
           return
         }
-       
+        
+        emailjs.sendForm('Gmail', 'template_x04vxpm', e, 'u1xtN4l27HdhYjBd0')
+        .then((result) => {
+          console.log(result.text);
+          }, (error) => {
+          console.log(error.text);
+          });
+          e.target.reset()
 
         setFirstName('');
         setLastName('');
