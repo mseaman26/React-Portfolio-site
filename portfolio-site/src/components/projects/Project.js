@@ -12,8 +12,8 @@ import socialMediaGiff from '../../assets/images/socialMediaGif.gif'
 import pokemonStill from '../../assets/images/Pokemon_Still.png'
 import pokemonGif from '../../assets/images/pokemon_gif.gif'
 
-const images =[MikesWordleStill, soundsLikeStill,fetchStill, techBlogStill, socialMediaStill, pokemonStill]
-const gifs = [MikesWordleGif,soundsLikeGif, fetchGif, techBlogGif, socialMediaGiff, pokemonGif]
+const images =[pokemonStill, MikesWordleStill, fetchStill, soundsLikeStill, techBlogStill, socialMediaStill, ]
+const gifs = [pokemonGif, MikesWordleGif, fetchGif, soundsLikeGif, techBlogGif, socialMediaGiff, ]
 
 
 
