@@ -77,10 +77,16 @@ function Contact() {
             <div id='contact_form_div'>
                 <div className='contact_header_div'>
                   <h1 id='contact_header'>
-                  Contact Michael Seaman
+                  Contact Michael Seaman At:
                   </h1>
-                </div>
+                  <a id='email_mike' href='mailto:mseaman26@gmail.com' target='_blank'>mseaman26@gmail.com</a>
+                  <h1 id='contact_header'>
+                  Or Fill Out the Following Contact Form:
+                  </h1>
                   
+                </div>
+                <br/>
+                <br/>
                 <form className="form" id='contact_form'>
                 <input
                 value={email}
