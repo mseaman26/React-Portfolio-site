@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/React-Portfolio-site/static/css/main.2720a6d4.chunk.css",
-    "main.js": "/React-Portfolio-site/static/js/main.fa81a4ba.chunk.js",
-    "main.js.map": "/React-Portfolio-site/static/js/main.fa81a4ba.chunk.js.map",
+    "main.css": "/React-Portfolio-site/static/css/main.e124a622.chunk.css",
+    "main.js": "/React-Portfolio-site/static/js/main.01eb78c3.chunk.js",
+    "main.js.map": "/React-Portfolio-site/static/js/main.01eb78c3.chunk.js.map",
     "runtime-main.js": "/React-Portfolio-site/static/js/runtime-main.049c1072.js",
     "runtime-main.js.map": "/React-Portfolio-site/static/js/runtime-main.049c1072.js.map",
     "static/js/2.4a9ac9d7.chunk.js": "/React-Portfolio-site/static/js/2.4a9ac9d7.chunk.js",
     "static/js/2.4a9ac9d7.chunk.js.map": "/React-Portfolio-site/static/js/2.4a9ac9d7.chunk.js.map",
     "index.html": "/React-Portfolio-site/index.html",
-    "static/css/main.2720a6d4.chunk.css.map": "/React-Portfolio-site/static/css/main.2720a6d4.chunk.css.map",
+    "static/css/main.e124a622.chunk.css.map": "/React-Portfolio-site/static/css/main.e124a622.chunk.css.map",
     "static/js/2.4a9ac9d7.chunk.js.LICENSE.txt": "/React-Portfolio-site/static/js/2.4a9ac9d7.chunk.js.LICENSE.txt",
     "static/media/MikesWordle.ed206c4d.gif": "/React-Portfolio-site/static/media/MikesWordle.ed206c4d.gif",
     "static/media/Pokemon_Still.8f1944dc.png": "/React-Portfolio-site/static/media/Pokemon_Still.8f1944dc.png",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.049c1072.js",
     "static/js/2.4a9ac9d7.chunk.js",
-    "static/css/main.2720a6d4.chunk.css",
-    "static/js/main.fa81a4ba.chunk.js"
+    "static/css/main.e124a622.chunk.css",
+    "static/js/main.01eb78c3.chunk.js"
   ]
 }
