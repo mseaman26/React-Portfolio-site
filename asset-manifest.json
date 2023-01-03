@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/React-Portfolio-site/static/css/main.f25bce46.chunk.css",
-    "main.js": "/React-Portfolio-site/static/js/main.fc161958.chunk.js",
-    "main.js.map": "/React-Portfolio-site/static/js/main.fc161958.chunk.js.map",
+    "main.css": "/React-Portfolio-site/static/css/main.0f18f66d.chunk.css",
+    "main.js": "/React-Portfolio-site/static/js/main.b24d024e.chunk.js",
+    "main.js.map": "/React-Portfolio-site/static/js/main.b24d024e.chunk.js.map",
     "runtime-main.js": "/React-Portfolio-site/static/js/runtime-main.049c1072.js",
     "runtime-main.js.map": "/React-Portfolio-site/static/js/runtime-main.049c1072.js.map",
     "static/js/2.4a9ac9d7.chunk.js": "/React-Portfolio-site/static/js/2.4a9ac9d7.chunk.js",
     "static/js/2.4a9ac9d7.chunk.js.map": "/React-Portfolio-site/static/js/2.4a9ac9d7.chunk.js.map",
     "index.html": "/React-Portfolio-site/index.html",
-    "static/css/main.f25bce46.chunk.css.map": "/React-Portfolio-site/static/css/main.f25bce46.chunk.css.map",
+    "static/css/main.0f18f66d.chunk.css.map": "/React-Portfolio-site/static/css/main.0f18f66d.chunk.css.map",
     "static/js/2.4a9ac9d7.chunk.js.LICENSE.txt": "/React-Portfolio-site/static/js/2.4a9ac9d7.chunk.js.LICENSE.txt",
+    "static/media/Michael_Seaman.d3affd2b.pdf": "/React-Portfolio-site/static/media/Michael_Seaman.d3affd2b.pdf",
+    "static/media/Michael_Seaman1.51af719f.png": "/React-Portfolio-site/static/media/Michael_Seaman1.51af719f.png",
+    "static/media/Michael_Seaman2.ee832c2e.png": "/React-Portfolio-site/static/media/Michael_Seaman2.ee832c2e.png",
     "static/media/MikesWordle.ed206c4d.gif": "/React-Portfolio-site/static/media/MikesWordle.ed206c4d.gif",
     "static/media/Pokemon_Still.8f1944dc.png": "/React-Portfolio-site/static/media/Pokemon_Still.8f1944dc.png",
     "static/media/SoundsLikeInYourAreaGif.eb75f18b.gif": "/React-Portfolio-site/static/media/SoundsLikeInYourAreaGif.eb75f18b.gif",
@@ -19,7 +22,6 @@
     "static/media/fetchStill.74363a76.png": "/React-Portfolio-site/static/media/fetchStill.74363a76.png",
     "static/media/mike.1cb93181.png": "/React-Portfolio-site/static/media/mike.1cb93181.png",
     "static/media/pokemon_gif.cdd186f3.gif": "/React-Portfolio-site/static/media/pokemon_gif.cdd186f3.gif",
-    "static/media/resume.8cf64d9c.png": "/React-Portfolio-site/static/media/resume.8cf64d9c.png",
     "static/media/socialMediaGif.80d81ec6.gif": "/React-Portfolio-site/static/media/socialMediaGif.80d81ec6.gif",
     "static/media/socialMediaStill.072d3f1b.png": "/React-Portfolio-site/static/media/socialMediaStill.072d3f1b.png",
     "static/media/techBlogGif.e9440d25.gif": "/React-Portfolio-site/static/media/techBlogGif.e9440d25.gif",
@@ -29,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.049c1072.js",
     "static/js/2.4a9ac9d7.chunk.js",
-    "static/css/main.f25bce46.chunk.css",
-    "static/js/main.fc161958.chunk.js"
+    "static/css/main.0f18f66d.chunk.css",
+    "static/js/main.b24d024e.chunk.js"
   ]
 }
