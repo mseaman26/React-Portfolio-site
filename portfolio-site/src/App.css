@@ -175,19 +175,23 @@ body{
 /* resume Page======================================= */
 #resume_page{
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
   background-color: rgb(219, 219, 219);
+  text-align: center;
 }
 #resume_div{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   width: fit-content;
 }
 #resume_a{
   width: fit-content;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 #resume_header{
   padding-bottom: 20px;
@@ -195,7 +199,7 @@ body{
   color: rgb(0, 108, 116)
   
 }
-#resume_pic{
+.resume_pic{
   width: 75%;
   padding-bottom: 20px;
 }

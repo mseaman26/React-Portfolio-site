@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import resume from '../../assets/images/resume.png'
+import resume from '../../assets/images/Michael_Seaman2.png'
+import resume2 from '../../assets/images/Michael_Seaman1.png'
 
 function Resume() {
     return(
@@ -10,7 +11,8 @@ function Resume() {
             
                 <div id='resume_div'>
                     <a href={resume} download id='resume_a'>
-                    <img id='resume_pic' src={resume} alt='Resume for Mike Seaman'/>
+                    <img className='resume_pic' src={resume2} alt='Resume for Mike Seaman'/>
+                    <img className='resume_pic' src={resume} alt='Resume for Mike Seaman'/>
                     </a>
                 </div>
             
