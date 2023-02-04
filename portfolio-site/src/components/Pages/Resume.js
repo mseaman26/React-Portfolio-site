@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import resume from '../../assets/images/Michael_Seaman2.png'
 import resume2 from '../../assets/images/Michael_Seaman1.png'
-import resumePDF from '../../assets/images/Michael_Seaman.pdf'
+import resumePDF from '../../assets/images/Resume.pdf'
 
 function Resume() {
     return(
