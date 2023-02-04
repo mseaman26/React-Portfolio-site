@@ -135,7 +135,7 @@ body{
   justify-content: center;
   align-items: center;
   padding-top: 50px;
-  background-image: url('./assets/images/laptop.jpg');
+  background-image: url('./assets/images/dark\ background.png');
   background-size: cover;
   height: 600px;
  
@@ -152,6 +152,7 @@ body{
   color: white;
   padding: 10px;
   width: fit-content;
+
 
 }
 .contact_form_item{
