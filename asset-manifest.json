@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-Portfolio-site/static/css/main.8ae4c00e.chunk.css",
+    "main.css": "/React-Portfolio-site/static/css/main.096c8fd9.chunk.css",
     "main.js": "/React-Portfolio-site/static/js/main.7e136ebf.chunk.js",
     "main.js.map": "/React-Portfolio-site/static/js/main.7e136ebf.chunk.js.map",
     "runtime-main.js": "/React-Portfolio-site/static/js/runtime-main.049c1072.js",
@@ -8,7 +8,7 @@
     "static/js/2.4a9ac9d7.chunk.js": "/React-Portfolio-site/static/js/2.4a9ac9d7.chunk.js",
     "static/js/2.4a9ac9d7.chunk.js.map": "/React-Portfolio-site/static/js/2.4a9ac9d7.chunk.js.map",
     "index.html": "/React-Portfolio-site/index.html",
-    "static/css/main.8ae4c00e.chunk.css.map": "/React-Portfolio-site/static/css/main.8ae4c00e.chunk.css.map",
+    "static/css/main.096c8fd9.chunk.css.map": "/React-Portfolio-site/static/css/main.096c8fd9.chunk.css.map",
     "static/js/2.4a9ac9d7.chunk.js.LICENSE.txt": "/React-Portfolio-site/static/js/2.4a9ac9d7.chunk.js.LICENSE.txt",
     "static/media/Michael_Seaman.d3affd2b.pdf": "/React-Portfolio-site/static/media/Michael_Seaman.d3affd2b.pdf",
     "static/media/Michael_Seaman1.51af719f.png": "/React-Portfolio-site/static/media/Michael_Seaman1.51af719f.png",
@@ -17,7 +17,7 @@
     "static/media/Pokemon_Still.8f1944dc.png": "/React-Portfolio-site/static/media/Pokemon_Still.8f1944dc.png",
     "static/media/SoundsLikeInYourAreaGif.eb75f18b.gif": "/React-Portfolio-site/static/media/SoundsLikeInYourAreaGif.eb75f18b.gif",
     "static/media/SoundsLikeStill.cd17bcba.png": "/React-Portfolio-site/static/media/SoundsLikeStill.cd17bcba.png",
-    "static/media/App.css": "/React-Portfolio-site/static/media/laptop.ee14a477.jpg",
+    "static/media/App.css": "/React-Portfolio-site/static/media/dark background.16a124ed.png",
     "static/media/fetchGif.fe3fddee.gif": "/React-Portfolio-site/static/media/fetchGif.fe3fddee.gif",
     "static/media/fetchStill.74363a76.png": "/React-Portfolio-site/static/media/fetchStill.74363a76.png",
     "static/media/mike.1cb93181.png": "/React-Portfolio-site/static/media/mike.1cb93181.png",
@@ -31,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.049c1072.js",
     "static/js/2.4a9ac9d7.chunk.js",
-    "static/css/main.8ae4c00e.chunk.css",
+    "static/css/main.096c8fd9.chunk.css",
     "static/js/main.7e136ebf.chunk.js"
   ]
 }
