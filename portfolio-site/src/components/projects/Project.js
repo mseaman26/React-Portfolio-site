@@ -44,6 +44,9 @@ function Project(props) {
                     <h3 className='project_header'>
                         {project.name}
                     </h3>
+                    <p>
+                        {project.description}
+                    </p>
                 </div>
                 <div className='project_image_div'>
                     <img id={project.imageIndex} src={images[project.imageIndex] } className='project_image' alt={project.alt} onMouseOver={imageHoverHandler} onMouseOut={imageUnHoverHandler}/>
