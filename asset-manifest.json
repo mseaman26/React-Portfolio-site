@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-Portfolio-site/static/css/main.19a09f9f.chunk.css",
-    "main.js": "/React-Portfolio-site/static/js/main.d7b1590b.chunk.js",
-    "main.js.map": "/React-Portfolio-site/static/js/main.d7b1590b.chunk.js.map",
+    "main.js": "/React-Portfolio-site/static/js/main.bac5b9a5.chunk.js",
+    "main.js.map": "/React-Portfolio-site/static/js/main.bac5b9a5.chunk.js.map",
     "runtime-main.js": "/React-Portfolio-site/static/js/runtime-main.049c1072.js",
     "runtime-main.js.map": "/React-Portfolio-site/static/js/runtime-main.049c1072.js.map",
     "static/js/2.4a9ac9d7.chunk.js": "/React-Portfolio-site/static/js/2.4a9ac9d7.chunk.js",
@@ -24,6 +24,8 @@
     "static/media/pokemon_gif.cdd186f3.gif": "/React-Portfolio-site/static/media/pokemon_gif.cdd186f3.gif",
     "static/media/socialMediaGif.80d81ec6.gif": "/React-Portfolio-site/static/media/socialMediaGif.80d81ec6.gif",
     "static/media/socialMediaStill.072d3f1b.png": "/React-Portfolio-site/static/media/socialMediaStill.072d3f1b.png",
+    "static/media/surfShopOverview.39a36445.gif": "/React-Portfolio-site/static/media/surfShopOverview.39a36445.gif",
+    "static/media/surfShopStill.0ad88080.png": "/React-Portfolio-site/static/media/surfShopStill.0ad88080.png",
     "static/media/techBlogGif.e9440d25.gif": "/React-Portfolio-site/static/media/techBlogGif.e9440d25.gif",
     "static/media/techBlogStill.5737fc1f.png": "/React-Portfolio-site/static/media/techBlogStill.5737fc1f.png",
     "static/media/wordleScreenshot.8d132c47.png": "/React-Portfolio-site/static/media/wordleScreenshot.8d132c47.png"
@@ -32,6 +34,6 @@
     "static/js/runtime-main.049c1072.js",
     "static/js/2.4a9ac9d7.chunk.js",
     "static/css/main.19a09f9f.chunk.css",
-    "static/js/main.d7b1590b.chunk.js"
+    "static/js/main.bac5b9a5.chunk.js"
   ]
 }
