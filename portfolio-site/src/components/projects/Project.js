@@ -11,9 +11,11 @@ import socialMediaStill from '../../assets/images/socialMediaStill.png'
 import socialMediaGiff from '../../assets/images/socialMediaGif.gif'
 import pokemonStill from '../../assets/images/Pokemon_Still.png'
 import pokemonGif from '../../assets/images/pokemon_gif.gif'
+import surfShopStill from '../../assets/images/surfShopSquare.png'
+import surfShopGif from '../../assets/images/surfShopGifSquare.gif'
 
-const images =[pokemonStill, MikesWordleStill, fetchStill, soundsLikeStill, techBlogStill, socialMediaStill, ]
-const gifs = [pokemonGif, MikesWordleGif, fetchGif, soundsLikeGif, techBlogGif, socialMediaGiff, ]
+const images =[surfShopStill, pokemonStill, MikesWordleStill, fetchStill, soundsLikeStill, socialMediaStill, ]
+const gifs = [surfShopGif, pokemonGif, MikesWordleGif, fetchGif, soundsLikeGif, socialMediaGiff, ]
 
 
 
